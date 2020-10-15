@@ -1121,6 +1121,12 @@ li{
   font-weight: 600;
 }
 
+.contact .email-form .loading {
+  display: none;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+}
 
 .contact .email-form input, .contact .email-form textarea {
   border-radius: 0;
