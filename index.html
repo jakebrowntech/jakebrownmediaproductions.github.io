@@ -291,95 +291,16 @@
             
           <div class="row" data-aos="fade-in">
           
-          <form method="post" action="contact.php">
-	<label for="name">Name:</label>
-	<input type="text" class="text" name="cf_name" id="name" />
-	<label for="email">email:</label>
-	<input type="text" class="text" name="cf_email" id="email" />
-	<label for="text">Message:</label>
-	<textarea class="text" name="cf_message" id="message"></textarea>
-	<input type="submit" class="submit" value="Send" />
-</form>
-          </section>
-  
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-        
-        <div class="section-title">
-          <h2>Contact</h2>
-          
-                  <div class="row" data-aos="fade-in">
-                    
-            <p>In case you need to contact us, use the email below.</p>
-                  </div>
-          
-           <p style="page-break-after: always;">&nbsp;</p>
-           <p style="page-break-before: always;">&nbsp;</p>
-            
-          <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Studio Location:</h4>
-                <p>Undisclosed</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-               <a href="mailto:business@thetechprofessor.net"</a> <p>business@thetechprofessor.net</p>
-              </div>
-              
-              <div class="website">
-                <i class="icofont-youtube"></i>
-                <h4>YouTube Channel:</h4>
-               <a href="https://youtube.com/thetechprofessor"</a> <p>YouTube.com/TheTechProfessor</p>
-              </div>
-            </div>
-           </div>
-           </div>
-          </div>
-        
-        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-        
-        </div>
-    </section><!-- End Contact Section -->
-
-		#contact p, label, legend { font: 1.5em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; }
+     <form action="http://formspree.io/you@email.com" method="post">
+<input type="text" name="name">
+<input type="email" name="_replyto">
+<input type="submit" value="Send">
+	     
+	     </section>
+		  
+		  
+		  
+		  #contact p, label, legend { font: 1.5em "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; }
 
 #contact h1 { margin: 10px 0 10px; font-size: 24px; color: #333333; }
 #contact hr { color: inherit; height: 0; margin: 6px 0 6px 0; padding: 0; border: 1px solid #d9d9d9; border-style: none none solid; }
@@ -773,8 +694,86 @@ jQuery(document).ready(function(){
         </form> 
                     
 	</section> 
-		
-		
+	     
+	     
+  
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        
+        <div class="section-title">
+          <h2>Contact</h2>
+          
+                  <div class="row" data-aos="fade-in">
+                    
+            <p>In case you need to contact us, use the email below.</p>
+                  </div>
+          
+           <p style="page-break-after: always;">&nbsp;</p>
+           <p style="page-break-before: always;">&nbsp;</p>
+            
+          <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Studio Location:</h4>
+                <p>Undisclosed</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+               <a href="mailto:business@thetechprofessor.net"</a> <p>business@thetechprofessor.net</p>
+              </div>
+              
+              <div class="website">
+                <i class="icofont-youtube"></i>
+                <h4>YouTube Channel:</h4>
+               <a href="https://youtube.com/thetechprofessor"</a> <p>YouTube.com/TheTechProfessor</p>
+              </div>
+            </div>
+           </div>
+           </div>
+          </div>
+        
+        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        
+        </div>
+    </section><!-- End Contact Section -->
+
 		
         <section id="blank" class="blank">
         <div class="row">
