@@ -137,28 +137,28 @@
       } else {
         this_form.find('.loading').slideUp();
         if(!msg) {
-          msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
+          msg = 'Your Submission Has Been Sent.';
         }
-        this_form.find('.error-message').slideDown().html(msg);
+        this_form.find('.sent-message').slideDown().html(msg);
       }
     }).fail( function(data){
       console.log(data);
-      var error_msg = "Form submission failed!<br>";
+      var sent_msg = "Your Submission Has Been Sent.<br>";
       if(data.statusText || data.status) {
-        error_msg += 'Status:';
+        sent_msg += 'Status:';
         if(data.statusText) {
-          error_msg += ' ' + data.statusText;
+          sent_msg += ' ' + data.statusText;
         }
         if(data.status) {
-          error_msg += ' ' + data.status;
+          sent_msg += ' ' + data.status;
         }
-        error_msg += '<br>';
+        sent_msg += '<br>';
       }
       if(data.responseText) {
-        error_msg += data.responseText;
+        sent_msg += data.responseText;
       }
       this_form.find('.loading').slideUp();
-      this_form.find('.error-message').slideDown().html(error_msg);
+      this_form.find('.sent-message').slideDown().html(sent_msg);
     });
   }
 
