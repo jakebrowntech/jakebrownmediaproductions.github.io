@@ -120,3 +120,10 @@ jQuery(document).ready(function(){
 	
 });
 </script>
+
+<head>
+    <meta http-equiv="Refresh" content="4; url='https://jakebrownmediaproductions.com'" />
+  </head>
+  <body>
+    <p> Your Message Has Been Sent. Thank you.</p>
+  </body>
